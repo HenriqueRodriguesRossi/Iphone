@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="logo.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Iphone-Henrique Rossi</title>
+</head>
+<body>
+	<header>
+		<nav class="navegation">
+			<a href="#"><img src="logo.png" alt="Logo do Iphone" class="logo"></a>
+			<ul class="lista">
+				<li><a href="#">Mac</a></li>
+				<li><a href="#">IPad</a></li>
+				<li><a href="#" class="check">Iphone</a></li>
+				<li><a href="#">Airpod</a></li>
+				<li><a href="#">Só na Apple</a></li>
+				<li class="support"><a href="#">Support</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<div class="circle"></div>
+			<div class="main-text">
+				<img src="iphone13.png">
+				<h3>Seu novo superpoder.</h3>
+				<p>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo. <br>
+				No iPhone 13, você faz coisas que nunca pôde. E ele ainda vem em dois tamanhos.</p>
+
+				<h6>A partir de R$ 6.599</h6>
+
+				<button class="btn"><a href="#">Comprar</a></button>
+				<div class="text">
+					<h5>Escolha sua cor favorita:</h5>
+				</div>
+				<div class="color-phone">
+					<span id="green" onclick="imgColorChange('green.png'); circleColorChange('#445c42')"></span>
+					<span id="pink" onclick="imgColorChange('pink.png'); circleColorChange('#ffc9cf')"></span>
+					<span id="blue" onclick="imgColorChange('blue.png'); circleColorChange('#0b839e')"></span>
+					<span id="black" onclick="imgColorChange('black.png'); circleColorChange('#092732')"></span>
+					<span id="white" onclick="imgColorChange('white.png'); circleColorChange('#e0ddd7')"></span>
+					<span id="red" onclick="imgColorChange ('red.png'); circleColorChange('#cf4f68')"></span>
+				</div>
+			</div>
+			<div class="main-img">
+				<img src="green.png" alt="Imagem do Iphone na cor verde" id="phone">
+			</div>
+		</section>
+	</main>
+	<script src="app.js"></script>
+</body>
+</html>
